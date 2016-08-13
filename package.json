@@ -1,0 +1,22 @@
+{
+  "name": "kindred-component",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "standard"
+  },
+  "dependencies": {
+    "inherits": "^2.0.1"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "keywords": [
+    "ecosystem:kindred"
+  ],
+  "description": "Base class upon which to build Kindred components",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kindredjs/kindred-component"
+  }
+}
