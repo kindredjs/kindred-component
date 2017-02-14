@@ -14,9 +14,13 @@ function nameComponent (name) {
 
 function Component () {}
 
-Component.prototype.init =
-Component.prototype.step =
-Component.prototype.draw =
-Component.prototype.stop = function () {}
+Component.prototype.init = function noop () {}
+Component.prototype.preStep = function noop () {}
+Component.prototype.step = function noop () {}
+Component.prototype.postStep = function noop () {}
+Component.prototype.preDraw = function noop () {}
+Component.prototype.draw = function noop () {}
+Component.prototype.postDraw = function noop () {}
+Component.prototype.stop = function noop () {}
 
 Component.prototype._name = 'unnamed'
